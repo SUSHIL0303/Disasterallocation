@@ -82,9 +82,9 @@ export default function Profile() {
                 </div>
                 <div>
                   <h1 className="text-2xl font-bold text-gray-900">{user?.name}</h1>
-                  <span className={`px-3 py-1 text-sm rounded-full ${getRoleColor(user?.role || '')}`}>
+                  {/* <span className={`px-3 py-1 text-sm rounded-full ${getRoleColor(user?.role || '')}`}>
                     {user?.role?.toUpperCase()}
-                  </span>
+                  </span> */}
                 </div>
               </div>
               <div className="flex space-x-2">
@@ -228,7 +228,7 @@ export default function Profile() {
             </div>
 
             {/* Activity Stats */}
-            <div className="mt-8 pt-8 border-t border-gray-200">
+            {/* <div className="mt-8 pt-8 border-t border-gray-200">
               <h3 className="text-lg font-semibold text-gray-900 mb-4">Activity Summary</h3>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                 <div className="bg-red-50 p-4 rounded-lg">
@@ -244,7 +244,7 @@ export default function Profile() {
                   <div className="text-sm text-green-700">Volunteer Hours</div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </motion.div>
       </div>
