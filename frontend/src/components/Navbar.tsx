@@ -70,9 +70,9 @@ export default function Navbar() {
                   <span className="text-sm text-gray-700">
                     Welcome, {user.name}
                   </span>
-                  <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
+                  {/* <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
                     {user.role}
-                  </span>
+                  </span> */}
                 </div>
                 <div className="relative">
                   <button
